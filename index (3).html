@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ojfx — Graphic Designer, Accra</title>
+  <meta name="description" content="ojfx is a graphic designer based in Accra, Ghana, working across branding, UI/UX and illustration.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body>
+
+  <!-- ===================== NAV ===================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="nav-inner">
+      <a href="#top" class="logo-link" aria-label="ojfx — home">
+        <img src="logo.png" alt="ojfx logo" class="logo-img">
+      </a>
+
+      <!-- Primary nav -->
+      <nav class="primary-nav" aria-label="Primary">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navList" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-list" id="navList">
+          <li><a href="#work" class="nav-link">Work</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Theme toggle -->
+      <button class="theme-toggle" id="themeToggle" aria-label="Switch between light and dark theme" aria-pressed="false">
+        <span class="theme-toggle-track">
+          <span class="theme-toggle-thumb"></span>
+        </span>
+        <span class="theme-toggle-label" id="themeToggleLabel">DARK</span>
+      </button>
+
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero">
+      <div class="grain" aria-hidden="true"></div>
+
+      <div class="hero-inner">
+
+        <p class="eyebrow">
+          <span class="dot" aria-hidden="true"></span>
+          AVAILABLE FOR PROJECTS
+        </p>
+
+        <h1 class="hero-headline">
+          <span class="line line-fill">Graphic</span>
+          <span class="line line-outline">Designer</span>
+          <span class="line line-fill">by trade.</span>
+        </h1>
+
+        <p class="hero-sub">
+          Hi! I'm <strong>Obed Webadua</strong>. I build brand identities, interfaces and illustrations that tell stories, solve problems and leave lasting impressions.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">View the work<span class="btn-arrow">→</span></a>
+          <a href="#contact" class="btn btn-ghost">Say hello</a>
+        </div>
+      </div>
+      <div class="hero-portrait">
+        <div class="portrait-frame">
+          <img src="_C8A6090.JPG" alt="Portrait of the designer" class="portrait-img"
+               onerror="this.style.display='none'; this.parentElement.classList.add('portrait-fallback')">
+          <div class="portrait-placeholder-text" aria-hidden="true">
+            profile.jpg<br><span>1080 × 1350 recommended</span>
+          </div>
+        </div>
+        <div class="portrait-badge">
+          <img src="assets/logo.png" alt="" aria-hidden="true">
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WORK / PORTFOLIO GALLERY ===================== -->
+    <section class="work" id="work">
+      <div class="section-inner">
+
+        <div class="section-heading">
+          <p class="eyebrow eyebrow-dark">To every problem a brand faces lies a solution I can fix</p>
+          <h2>Some of my personal & brand projects...</h2>
+        </div>
+
+        <div class="work-grid">
+          <article class="work-item size-lg" style="--swatch-a:#000000; --swatch-b:#000000;">
+            <img src="MID-YEAR-LANDSCAPE.jpg" alt="churchflyer" class="work-swatch">
+            <div class="work-overlay">
+              <p class="work-index">01 / 06</p>
+              <h3 class="work-title">Church Flyer</h3>
+              <p class="work-cat">Brand Identity, Packaging</p>
+            </div>
+          </article>
+
+          <article class="work-item size-sm" style="--swatch-a:#000000; --swatch-b:#000000;">
+            <img src="REP YOUR SCHOOLLLLLL.jpg" alt="churchflyer" class="work-swatch">
+            <div class="work-overlay">
+              <p class="work-index">02 / 06</p>
+              <h3 class="work-title">Rep Your School</h3>
+              <p class="work-cat">Brand Identity, Packaging</p>
+            </div>
+          </article>
+
+          <article class="work-item size-sm" style="--swatch-a:#000000; --swatch-b:#000000;">
+            <img src="TENACITY-ALBERT.jpg" alt="churchflyer" class="work-swatch">
+            <div class="work-overlay">
+              <p class="work-index">03 / 06</p>
+              <h3 class="work-title">Church flyer</h3>
+              <p class="work-cat">Brand Identity</p>
+            </div>
+          </article>
+
+          <article class="work-item size-sm" style="--swatch-a:#000000; --swatch-b:#000000;">
+            <img src="MESH  NEW LOGO.png" alt="churchflyer" class="work-swatch">
+            <div class="work-overlay">
+              <p class="work-index">04 / 06</p>
+              <h3 class="work-title">Osu Records</h3>
+              <p class="work-cat">Album Art, Motion</p>
+            </div>
+          </article>
+
+          <article class="work-item size-sm" style="--swatch-a:#000000; --swatch-b:#000000;">
+            <img src="TRINITY3.jpg" alt="churchflyer" class="work-swatch">
+            <div class="work-overlay">
+              <p class="work-index">05 / 06</p>
+              <h3 class="work-title">Fintech Rebrand</h3>
+              <p class="work-cat">Brand Identity, Web</p>
+            </div>
+          </article>
+
+          <article class="work-item size-sm" style="--swatch-a:#000000; --swatch-b:#000000;">
+            <img src="welcome to upsa.png" alt="churchflyer" class="work-swatch">
+            <div class="work-overlay">
+              <p class="work-index">06 / 06</p>
+              <h3 class="work-title">Accra Design Week</h3>
+              <p class="work-cat">Event Identity, Print</p>
+            </div>
+          </article>
+
+          <article class="work-item size-sm hidden-work" style="--swatch-a:#000000; --swatch-b:#000000;">
+            <img src="Unreal black frontt.png" alt="churchflyer" class="work-swatch">
+            <div class="work-overlay">
+              <p class="work-index">06 / 06</p>
+              <h3 class="work-title">Accra Design Week</h3>
+              <p class="work-cat">Event Identity, Print</p>
+            </div>
+          </article>
+
+          <article class="work-item size-sm hidden-work" style="--swatch-a:#000000; --swatch-b:#000000;">
+            <img src="Unreal black backk.png" alt="churchflyer" class="work-swatch">
+            <div class="work-overlay">
+              <p class="work-index">06 / 06</p>
+              <h3 class="work-title">Accra Design Week</h3>
+              <p class="work-cat">Event Identity, Print</p>
+            </div>
+          </article>
+
+          <article class="work-item size-sm hidden-work" style="--swatch-a:#000000; --swatch-b:#000000;">
+            <img src="PC.jpg" alt="churchflyer" class="work-swatch">
+            <div class="work-overlay">
+              <p class="work-index">06 / 06</p>
+              <h3 class="work-title">Accra Design Week</h3>
+              <p class="work-cat">Event Identity, Print</p>
+            </div>
+          </article>
+
+          <article class="work-item size-lg hidden-work" style="--swatch-a:#000000; --swatch-b:#000000;">
+            <video width = "100%" height = "100%" autoplay muted loop playsinline
+            src="create_a_smooth_cinematic_intro_video (1).mp4" alt="churchflyer" class="work-swatch">
+            <div class="work-overlay">
+              <p class="work-index">06 / 06</p>
+              <h3 class="work-title">Accra Design Week</h3>
+              <p class="work-cat">Event Identity, Print</p>
+            </div>
+          </article>
+
+          <article class="work-item size-sm hidden-work" style="--swatch-a:#000000; --swatch-b:#000000;">
+            <img src="Unreal white frontt.png" alt="churchflyer" class="work-swatch">
+            <div class="work-overlay">
+              <p class="work-index">06 / 06</p>
+              <h3 class="work-title">Accra Design Week</h3>
+              <p class="work-cat">Event Identity, Print</p>
+            </div>
+          </article>
+
+          <article class="work-item size-sm hidden-work" style="--swatch-a:#000000; --swatch-b:#000000;">
+            <img src="Camp-Anticipate.jpg" alt="churchflyer" class="work-swatch">
+            <div class="work-overlay">
+              <p class="work-index">06 / 06</p>
+              <h3 class="work-title">Accra Design Week</h3>
+              <p class="work-cat">Event Identity, Print</p>
+            </div>
+          </article>
+
+          <article class="work-item size-sm hidden-work" style="--swatch-a:#000000; --swatch-b:#000000;">
+            <img src="Tretreat.jpg" alt="churchflyer" class="work-swatch">
+            <div class="work-overlay">
+              <p class="work-index">02 / 06</p>
+              <h3 class="work-title">Rep Your School</h3>
+              <p class="work-cat">Brand Identity, Packaging</p>
+            </div>
+          </article>
+
+          <article class="work-item size-lg hidden-work" style="--swatch-a:#000000; --swatch-b:#000000;">
+            <img src="LOGO 1.png" alt="churchflyer" class="work-swatch">
+            <div class="work-overlay">
+              <p class="work-index">02 / 06</p>
+              <h3 class="work-title">Rep Your School</h3>
+              <p class="work-cat">Brand Identity, Packaging</p>
+            </div>
+          </article>
+
+          <article class="work-item size-sm hidden-work" style="--swatch-a:#000000; --swatch-b:#000000;">
+            <img src="PAPA1.jpg" alt="churchflyer" class="work-swatch">
+            <div class="work-overlay">
+              <p class="work-index">02 / 06</p>
+              <h3 class="work-title">Rep Your School</h3>
+              <p class="work-cat">Brand Identity, Packaging</p>
+            </div>
+          </article>
+
+          <article class="work-item size-sm hidden-work" style="--swatch-a:#000000; --swatch-b:#000000;">
+            <img src="STANLEO.png" alt="churchflyer" class="work-swatch">
+            <div class="work-overlay">
+              <p class="work-index">02 / 06</p>
+              <h3 class="work-title">Rep Your School</h3>
+              <p class="work-cat">Brand Identity, Packaging</p>
+            </div>
+          </article>
+
+        </div>
+        <div class="work-more-wrap">
+          <button class="btn btn-ghost" id="SeeMoreBtn">See more work<span class="btn-arrow">↓</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="about" id="about">
+      <div class="section-inner about-grid">
+
+        <div class="about-copy">
+          <p class="eyebrow eyebrow-dark">What do I stand for?</p>
+          <h2 class="about-heading">
+            I don't stop learning.<br>
+            I keep growing day by day
+          </h2>
+          <p class="about-para">
+            Based in Accra, I've spent the past couple of years on honing and developing my craft. By embracing new challenges and overcoming obstacles, I'm not just designing another poster or creating another motion graphic. I'm telling a story, and that story becomes a testament of my growth.
+          </p>
+          <p class="about-para">
+            In a world which is dominated by generic design formats and AI-generated work, you can be sure that my work is 100% original and authentic. I take pride in creating designs that are not only visually appealing but also meaningful and impactful to me and your audience.
+          </p>
+        </div>
+
+        <div class="about-skills">
+          <p class="skills-label">What do I do?</p>
+          <ul class="skills-list">
+            <li><span class="skill-index">01</span>Brand Identity</li>
+            <li><span class="skill-index">02</span>UI / UX Design</li>
+            <li><span class="skill-index">03</span>Illustration</li>
+            <li><span class="skill-index">04</span>Packaging Design</li>
+            <li><span class="skill-index">05</span>Motion Graphics</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="contact" id="contact">
+      <div class="grain" aria-hidden="true"></div>
+      <div class="section-inner">
+
+        <p class="eyebrow">How do you reach me?</p>
+        <h2 class="contact-heading">Got a brand<br>worth building?</h2>
+        <p class="contact-sub">
+          Convinced I can help you with your next project? Let's talk. I’m available for freelance work and collaborations, and I’d love to hear about your ideas.
+        </p>
+
+        <div class="contact-actions">
+          <a href="mailto:wepiajnr@gmail.com?subject=Project%20Inquiry" class="contact-btn contact-btn-primary">
+            <span class="contact-btn-label">Email me</span>
+            <span class="contact-btn-value">wepiajnr@gmail.com</span>
+          </a>
+
+          <a href="https://wa.me/233559452835?text=Hi%20Obed%2C%20I%27d%20like%20to%20talk%20about%20a%20project"
+             class="contact-btn contact-btn-secondary" target="_blank" rel="noopener noreferrer">
+            <span class="contact-btn-label">Call or WhatsApp</span>
+            <span class="contact-btn-value">+233 55 945 2835</span>
+          </a>
+        </div>
+
+        <div class="social-row">
+          <a href=" https://www.snapchat.com/add/like.ojey?share_id=VKHkuqvCU5A&locale=en-US" class="social-link" target="_blank" rel="noopener noreferrer">Snapchat</a>
+          <a href="https://www.instagram.com/oj.grafix?igsh=cG0ydmduNXFwbmhi" class="social-link" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://linkedin.com/" class="social-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="section-inner footer-inner">
+      <img src="logo.png" alt="ojfx logo" class="footer-logo">
+      <p class="footer-copy">© <span id="footerYear"></span> Obed Webadua. Designed &amp; built in Accra by Deladem Avudzega.</p>
+      <button class="back-to-top" id="backToTop" aria-label="Back to top">↑ Top</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
