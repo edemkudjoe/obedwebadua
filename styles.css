@@ -679,3 +679,12 @@ img.work-swatch {
 @media (min-width: 1100px) {
   .work-grid { grid-auto-rows: 300px; }
 }
+.social-link svg {
+  display: block;
+  width: 24px;
+  height: 24px;
+  transition: opacity 0.2s ease;
+}
+.social-link:hover svg {
+  opacity: 0.7;
+}
